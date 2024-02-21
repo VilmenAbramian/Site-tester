@@ -11,6 +11,7 @@ def check_site(adress, domen):
         print(f'На сайт "{site}" можно перейти')
         check_ip(adress, domen)
         number = find_number(response)
+        print('Номер телефона:', number)
         if check_number(number):
             print('Номер корректный')
         else:
